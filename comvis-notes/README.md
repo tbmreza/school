@@ -1,5 +1,7 @@
 # comvis-notes
 
+Personal notes on Computer Vision and Mobile Application (Aug–Dec 2018) lectures at Telkom University. Contains Matlab implementations of various computer vision tasks.
+
 ## Table of Contents
 
   * Basic Image Manipulation Tasks
