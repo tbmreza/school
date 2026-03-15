@@ -1,0 +1,152 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[margin=1in]{geometry}
+\usepackage{fontspec}          % XeLaTeX/LuaLaTeX font support
+\usepackage{parskip}           % paragraph spacing instead of indentation
+\usepackage{microtype}         % typographic refinements
+\usepackage{hyperref}          % clickable links
+\usepackage{xcolor}            % for hyperref colors
+
+% --- Font ---
+\setmainfont{TeX Gyre Termes}  % ships with texlive, Times-like
+
+% --- Hyperref setup ---
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue!70!black,
+  pdfauthor={Reza Handzalah},
+  pdftitle={Statement of Purpose},
+}
+
+% --- Header ---
+\title{\vspace{-2em}Statement of Purpose}
+\author{Reza Handzalah}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+% ======================================================================
+% 1. OPENING — hook + thesis
+% ======================================================================
+Presentasi tugas akhir pada konferensi nasional SENIATI di ITN Malang menggenapkan masa S1 saya.
+Pada intinya, publikasi yang saya paparkan merupakan laporan mengenai sebuah simulasi sistem komunikasi.
+Meskipun skripsi saya termasuk "skripsi yang baik\footnote{Karena skripsi yang baik adalah skripsi yang selesai.}"
+dan artikel ilmiahnya berhasil masuk prosiding setelah serangkaian proses, sebenarnya pada saat itu saya masih bertanya-tanya.
+Bagaimana bisa simulasi dibuat laporannya, di-\emph{review} oleh editor, lalu dicukupkan dengan konferensi di depan mahasiswa
+dan akademisi lainnya.
+\emph{Bukankah laporan tersebut belum bermanfaat sampai benar-benar divalidasi pada dunia nyata?}
+
+
+
+% During my undergraduate thesis I built a discrete-event simulation of a
+% telecommunications network, modelling packet-level behaviour across
+% switching nodes to evaluate quality-of-service metrics under varying
+% traffic loads.  The work forced me to confront a question that has
+% guided my career ever since: \emph{how do we know that a simulation
+% faithfully represents the system it claims to model?}
+
+
+% ======================================================================
+% 2. UNDERGRADUATE RESEARCH
+% ======================================================================
+
+... belajar proses penulisan karya ilmiah dan metodologi ...
+
+% My thesis project involved designing and implementing a simulator that
+% reproduced the scheduling and queuing dynamics of a multi-hop network.
+% I parameterised the model with empirical traffic distributions and
+% validated its outputs against analytical bounds for delay and
+% throughput.  The most rewarding---and most humbling---part of the
+% project was the validation phase: small modelling assumptions (buffer
+% overflow policy, arrival-process granularity) produced large
+% discrepancies in end-to-end latency distributions.  This experience
+% taught me that building the simulation is only half the challenge;
+% \emph{proving that it behaves correctly} is equally important.
+
+
+
+% ======================================================================
+% 3. PROFESSIONAL EXPERIENCE
+% ======================================================================
+Setelah lulus program sarjana, saya masuk ke dunia \emph{software
+engineering}. Saya mencoba pengalaman di beberapa perusahaan dengan
+produk berbeda (mulai dari ... hingga \emph{beauty}) dan peran
+\emph{engineer} yang agak berbeda (mulai dari ... hingga analis QA)
+
+``fewer bugs in production''
+``tidak ada \emph{bug} yang mengganggu \emph{production}''
+
+Pengalaman yang saya dapatkan menanamkan ??mindset pragmatis untuk mencegah
+``\emph{bug} yang mengganggu \emph{production}''
+Bekerja di bawah visi \& misi perusahaan melatih saya untuk berpikir ??around
+??constraint harmoni dengan stakeholder yang ada.
+
+
+% After graduating I joined the software engineering industry, where I
+% have spent the past several years developing production systems.  My
+% day-to-day work sharpened my skills in designing testable
+% architectures, writing automated test suites, and reasoning about
+% system correctness under concurrency and load.  Over time I gravitated
+% toward verification-oriented work: I contributed to continuous
+% integration pipelines with property-based testing, implemented contract
+% checks at service boundaries, and investigated how static-analysis
+% tools could catch classes of bugs before deployment.
+%
+% What began as professional pragmatism---``fewer bugs in
+% production''---evolved into a genuine intellectual interest in the
+% \emph{principles} of verification.  I started reading about formal
+% methods, model checking, and simulation-based validation, and I
+% recognised that my thesis experience and my industry work were two
+% facets of the same fundamental problem: establishing
+% \emph{confidence} that a complex system meets its specification.
+
+% ======================================================================
+% 4. RESEARCH INTEREST
+% ======================================================================
+Riset yang akan saya lakukan meneruskan proposal bertopik Pemerintah Digital BRIN user journey simulation ...
+
+
+% This trajectory leads naturally to the User Journey Simulator research
+% project at \textbf{[University / Lab Name]}.  The project addresses a
+% challenge I find deeply compelling: constructing synthetic but
+% \emph{realistic} models of how users navigate digital products, and
+% then verifying that those models capture the behaviours that matter.
+%
+% From my simulation background I bring experience with stochastic
+% modelling, event-driven architectures, and the pitfalls of
+% over-simplified assumptions.  From my industry career I bring an
+% acute awareness that simulation outputs must be \emph{actionable}:
+% the metrics a simulator produces---accessibility scores, conversion
+% funnels, error-recovery paths---must be validated against real-world
+% observations before anyone can trust them for decision-making.
+%
+% I am particularly interested in the question of \emph{metric
+% selection and filtering}: determining which accessibility and
+% usability metrics are meaningful proxies for real user experience,
+% and which are noise that would mislead the simulation engine.  I
+% believe that rigorous verification of the simulation's input metrics
+% is a prerequisite for trustworthy output, and I want to contribute
+% methods---drawing on property-based testing, statistical validation,
+% and perhaps lightweight formal techniques---to make that verification
+% systematic.
+
+% ======================================================================
+% 5. FIT & CLOSING
+% ======================================================================
+
+Saya tidak tahu apakah pertanyaan yang saya tulis di paragraf pertama memiliki jawaban yang mutlak benar.
+Saya ingin menerapkan metodologi dasar \emph{simulation science}
+dan menjawab tantangan skalabilitas verifikasi sistem digital apapun yang menopang kebutuhan manusia di era sekarang:
+saya percaya simulasi yang \emph{academically rigorous} -lah yang bermanfaat bagi para \emph{engineer}, \emph{architect},
+dan penentu kebijakan.
+Saya meyakini, minat di bidang apapun akan berdampak baik bukan hanya terhadap pemilik minat, tetapi juga
+terhadap kekayaan khazanah di bidang tersebut.
+Lebih khusus, saya ingin berkolaborasi dengan lab \href{https://scholar.ui.ac.id/en/organisations/e-government-e-business-egb/}{E-Government \& E-Business (EGB)} Universitas Indonesia.
+Saya ingin memberikan rasa penasaran ini efek pengali dengan menjadi bagian dari komunitas bernama institusi pendidikan pascasarjana Teknologi Informasi.
+Terakhir, saya berharap setiap niat baik kita semua dimudahkan untuk dapat terlaksana demi kemajuan bersama.
+
+\end{document}
